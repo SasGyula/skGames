@@ -11,9 +11,7 @@ main{
     grid-template-areas: 
     "h h h h h h"
     "h2 h2 h2 h2 h2 h2"
-    "n n n n n n"
-    "a a a a a a";
-
+    "a a a a n n";
 }
 header{
     grid-area: h;
@@ -49,6 +47,9 @@ h1{
 nav {
     grid-area: n;
 }
+nav ul{
+    margin-top: 0px;
+}
 nav a{
     text-decoration: none;
     color: #ffd0db;
@@ -59,12 +60,6 @@ nav li{
     list-style: none;
     background-color: #403075;
     border: black 1px solid;
-    
-
-}
-nav ul{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .jatekok{
     background-color: #403075;
@@ -94,4 +89,30 @@ nav ul{
     height: 150px;
     border-radius: 5px;
     
+}
+.jatekLeiras{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+.jatekLeiras img{
+    width: 300px;
+    height: auto;
+    padding: 10px;
+}
+.jatekLeiras p{
+    margin-top: 0px;
+    text-align: justify;
+    color: white;
+}
+.ertekeles {
+    color: rgb(142, 127, 194);
+}
+.header3 h2{
+    color: white;
+    margin-bottom: 1px;
+    margin-left: 10px;
+}
+.jatekLeiras td {
+    padding:10px;
 }
