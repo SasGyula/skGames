@@ -11,13 +11,17 @@ main{
     grid-template-areas: 
     "h h h h h h"
     "h2 h2 h2 h2 h2 h2"
-    "a a a a n n";
+    "n n n n n n"
+    "a a a a a a";
 
 }
 header{
     grid-area: h;
     padding: 5px;
     color: #f5dae1;
+}
+header p{
+    text-align: center;
 }
 article{
     grid-area: a;
@@ -55,7 +59,12 @@ nav li{
     list-style: none;
     background-color: #403075;
     border: black 1px solid;
+    
 
+}
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .jatekok{
     background-color: #403075;
@@ -71,10 +80,14 @@ nav li{
 }
 .link a{
     text-decoration: none;
-    color: white;
+    color: rgba(255, 255, 255, 0.479);
     padding: 5px;
-    background-color: #887BAF;
+    background-color: #403075;
     border: 1px black solid;
+}
+.link a:hover{
+    background-color:#887BAf ;
+    color: white;
 }
 .jatekok img{
     width: 150px;
