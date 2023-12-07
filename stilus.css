@@ -3,9 +3,10 @@ body{
     max-width: 900px;
     margin: auto;
     background-image: url(kepek/bodyHatter.jpg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 main{
-    background-color: #9C344C;
+    background-color: #13073A;
     display: grid;
     grid-template-areas: 
     "h h h h h h"
@@ -37,7 +38,7 @@ header img {
 }
 h1{
     text-align: center;
-    background-color: #75142B;
+    background-color: #261758;
     border-radius: 5px;
     border: black 1px solid;
 }
@@ -52,12 +53,12 @@ nav a{
 nav li{
     padding: 5px;
     list-style: none;
-    background-color: #C36178;
+    background-color: #403075;
     border: black 1px solid;
 
 }
 .jatekok{
-    background-color: #EA9CAE;
+    background-color: #403075;
     border:1px black solid;
     border-radius: 5px;
     width: 150px;
@@ -72,7 +73,7 @@ nav li{
     text-decoration: none;
     color: white;
     padding: 5px;
-    background-color: #75142B;
+    background-color: #887BAF;
     border: 1px black solid;
 }
 .jatekok img{
