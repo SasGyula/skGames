@@ -3,8 +3,34 @@ body{
     max-width: 900px;
     margin: auto;
 }
+main{
+    background-color: #9C344C;
+    display: grid;
+    grid-template-areas: 
+    "h h h h h h"
+    "a a a a a j";
+}
+header{
+    grid-area: h;
+}
+article{
+    grid-area: a;
+}
+aside{
+    grid-area: j;
+}
 h1{
     text-align: center;
-    background-color: gray;
+    background-color: #75142B;
     border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: #ffd0db;
+}
+li{
+    list-style: none;
+    background-color: #C36178;
+    border: black 1px solid;
+    
 }
