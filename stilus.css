@@ -2,6 +2,7 @@ body{
     width: 90%;
     max-width: 900px;
     margin: auto;
+    background-image: url(kepek/bodyHatter.jpg);
 }
 main{
     background-color: #9C344C;
@@ -16,7 +17,6 @@ header{
     grid-area: h;
     padding: 5px;
     color: #f5dae1;
-    border: black 1px solid;
 }
 article{
     grid-area: a;
