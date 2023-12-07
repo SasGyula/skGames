@@ -8,29 +8,76 @@ main{
     display: grid;
     grid-template-areas: 
     "h h h h h h"
-    "a a a a a j";
+    "h2 h2 h2 h2 h2 h2"
+    "a a a a n n";
+
 }
 header{
     grid-area: h;
+    padding: 5px;
+    color: #f5dae1;
+    border: black 1px solid;
 }
 article{
     grid-area: a;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
 }
-aside{
-    grid-area: j;
+.header2{
+    grid-area: h2;
+    text-align: center;
+    color: #f5dae1;
+}
+header img {
+    max-width: 100%;
+    height: auto;
+    border-top: 5px black solid;
+    border-bottom: 5px black solid;
 }
 h1{
     text-align: center;
     background-color: #75142B;
     border-radius: 5px;
+    border: black 1px solid;
 }
-a{
+nav {
+    grid-area: n;
+}
+nav a{
     text-decoration: none;
     color: #ffd0db;
+    padding: 10px;
 }
-li{
+nav li{
+    padding: 5px;
     list-style: none;
     background-color: #C36178;
     border: black 1px solid;
+
+}
+.jatekok{
+    background-color: #EA9CAE;
+    border:1px black solid;
+    border-radius: 5px;
+    width: 150px;
+    height: 200px;
+    padding: 5px;
+    text-align: left;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    background-color: #75142B;
+    border: 1px black solid;
+}
+.jatekok li{
+    list-style: none;
+}
+.jatekok img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
     
 }
