@@ -65,15 +65,15 @@ nav li{
     padding: 5px;
     text-align: left;
 }
+.link{
+    margin-top: 15px;
+}
 .link a{
     text-decoration: none;
     color: white;
     padding: 5px;
     background-color: #75142B;
     border: 1px black solid;
-}
-.jatekok li{
-    list-style: none;
 }
 .jatekok img{
     width: 150px;
